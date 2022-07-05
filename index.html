@@ -16,6 +16,9 @@
 <body>
     <header>
         <nav class="navbar row-cols-auto p-3">
+            <div class="col mobile__nav mx-3">
+                <i class="fa fa-bars" style="font-size:1.8rem" aria-hidden="true"></i>
+            </div>
             <div class="col">
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="164.117"
                     height="48" viewBox="0 0 164.117 48">
@@ -133,7 +136,7 @@
                     </g>
                 </svg>
             </div>
-            <div class="col">
+            <div class="col desktop__nav">
                 <div class="row row-cols-auto ">
                     <div class="col">
                         <span class="fa fa-search navbar__icons"></span>
@@ -585,6 +588,46 @@
             </div>
         </section>
     </main>
+    <footer>
+        <div class="row ">
+            <div class="col-lg-3 col-md-6 px-5">
+                <p class="bold pt-5">درباره زودکس </p>
+                <p class="about__us">قسمت فروشگاهی زودکس واسطی بین مشتریان و فروشگاه ها می باشد که به سفارش و ارسال خرید
+                    های شما مشتریان عزیز سرعت می بخشد. در حال حاضر زودکس با رستوران ها، فست فود ها، کافه ها، میوه فروشی
+                    ها، سوپر مارکت ها و... به صورت قراردادی کار میکند و این خدمات را با سرعت بیشتری درب منزل شما می آورد
+                    چرا که بجای تماس های تلفنی با فروشندگان آنها به صورت آنلاین از طریق سیستم متوجه سفارش شما خواهند شد
+                    و آماده سازی سفارش شما با سرعت بیشتری انجام خواهد گرفت.</p>
+            </div>
+            <div class="col-lg-3 col-md-6 footer__padding">
+                <p class="bold pt-5">ارتباط با زودکس</p>
+                <div class="d-flex flex-column flex-nowrap">
+                    <p class="about__us">پیگیری سفارشات : 034 9101 4400</p>
+                    <p class="about__us">شماره دوم پشتیبانی کرمان :‌ 0935 543 1221</p>
+                    <p class="about__us">رسیدگی به شکایات و پیشنهادات : 0912 884 4262</p>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-md-6 footer__padding">
+                <p class="bold pt-5">بیشتر</p>
+                <div class="d-flex flex-column flex-nowrap">
+                    <a class="footer__links text-nowrap" href="">نحوه ثبت نام در زودکس</a>
+                    <a class="footer__links text-nowrap" href="">رویه ارسال زودکس</a>
+                    <a class="footer__links text-nowrap" href="">شیوه های پرداخت در زودکس</a>
+                    <a class="footer__links text-nowrap" href="">قوانین و مقررات زودکس</a>
+                    <a class="footer__links text-nowrap" href="">سوالات متداول</a>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer__padding">
+                <p class="bold pt-5 zoodex__certifications">مجوز های زودکس</p>
+                <div class="d-flex flex-nowrap">
+                    <img class="footer__img" src="/img/enamad.png" alt="">
+                    <img class="footer__img"
+                        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQwIiBoZWlnaHQ9IjM2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KCTxwYXRoIGQ9Im0xMjAgMjQzbDk0LTU0IDAtMTA5IC05NCA1NCAwIDEwOSAwIDB6IiBmaWxsPSIjODA4Mjg1Ii8+Cgk8cGF0aCBkPSJtMTIwIDI1NGwtMTAzLTYwIDAtMTE5IDEwMy02MCAxMDMgNjAgMCAxMTkgLTEwMyA2MHoiIHN0eWxlPSJmaWxsOm5vbmU7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS13aWR0aDo1O3N0cm9rZTojMDBhZWVmIi8+Cgk8cGF0aCBkPSJtMjE0IDgwbC05NC01NCAtOTQgNTQgOTQgNTQgOTQtNTR6IiBmaWxsPSIjMDBhZWVmIi8+Cgk8cGF0aCBkPSJtMjYgODBsMCAxMDkgOTQgNTQgMC0xMDkgLTk0LTU0IDAgMHoiIGZpbGw9IiM1ODU5NWIiLz4KCTxwYXRoIGQ9Im0xMjAgMTU3bDQ3LTI3IDAtMjMgLTQ3LTI3IC00NyAyNyAwIDU0IDQ3IDI3IDQ3LTI3IiBzdHlsZT0iZmlsbDpub25lO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2Utd2lkdGg6MTU7c3Ryb2tlOiNmZmYiLz4KCTx0ZXh0IHg9IjE1IiB5PSIzMDAiIGZvbnQtc2l6ZT0iMjVweCIgZm9udC1mYW1pbHk9IidCIFlla2FuJyIgc3R5bGU9ImZpbGw6IzI5Mjk1Mjtmb250LXdlaWdodDpib2xkIj7Yudi22Ygg2KfYqtit2KfYr9uM2Ycg2qnYtNmI2LHbjDwvdGV4dD4KCTx0ZXh0IHg9IjgiIHk9IjM0MyIgZm9udC1zaXplPSIyNXB4IiBmb250LWZhbWlseT0iJ0IgWWVrYW4nIiBzdHlsZT0iZmlsbDojMjkyOTUyO2ZvbnQtd2VpZ2h0OmJvbGQiPtqp2LPYqCDZiCDaqdin2LHZh9in24wg2YXYrNin2LLbjDwvdGV4dD4KPC9zdmc+"
+                        alt="">
+                </div>
+            </div>
+    </footer>
 </body>
 
 </html>

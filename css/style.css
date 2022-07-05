@@ -42,6 +42,30 @@ a {
   z-index: 999;
 }
 
+.desktop__nav {
+  display: none;
+}
+
+.fa-bars {
+  cursor: pointer;
+  transition: all 1s;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.fa-bars:hover {
+  padding: 5px 15px;
+}
+
+@media screen and (min-width: 728px) {
+  .desktop__nav {
+    display: block;
+  }
+  .mobile__nav {
+    display: none;
+  }
+}
 .holder {
   position: relative;
   text-align: center;
@@ -182,18 +206,34 @@ a {
 /* Footer */
 
 .about__us {
-  text-align: justify;
   font-size: 14px;
+  text-align: justify;
 }
 
 .footer__links {
-  margin: 5px;
+  margin: 5px 0;
   font-size: 13px;
 }
 
 .footer__img {
   object-fit: contain;
-  margin: 0 15px;
   width: 122px;
   height: 132px;
+}
+
+.footer__padding {
+  padding-right: 50px;
+}
+
+@media screen and (min-width: 992px) {
+  .zoodex__certifications {
+    text-align: center;
+  }
+  .footer__img {
+    margin: 0 15px;
+  }
+}
+
+.more__footer {
+  margin: 0 2rem;
 }
