@@ -10,12 +10,12 @@ dropDownMenu.addEventListener("click", () => {
   }
 });
 
+// Show Extra Card
 const showExtraBtn = document.querySelector(".show__more");
 showExtraBtn.addEventListener("click", () => {
   const extra = document.querySelectorAll(".extraCards");
   const showMoreText = document.getElementById("showMoreText");
   const chevronIcon = document.getElementById("chevronIcon");
-  console.log(chevronIcon);
   extra.forEach((div) => {
     if (div.classList.contains("showExtra")) {
       div.classList.remove("showExtra");
