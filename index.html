@@ -13,51 +13,52 @@
     <title>زودکس | سامانه سفارش انلاین غذا </title>
 </head>
 
-<body class="overflow-hidden">
-    <header>
-        <nav class="navbar sticky-top row-cols-auto p-3">
-            <div class="col mobile__nav mx-3">
-                <div id="dropDown" class="dropdown__menu">
-                    <i class="fa fa-bars" style="font-size:1.8rem" aria-hidden="true"></i>
-                    <div class="dropdown__content">
-                        <ul>
-                            <li class="dropdown-item">
-                                <a href="">خانه</a>
-                            </li>
-                            <li class="dropdown-item">
-                                <a href="">ورود / ثبت نام</a>
-                            </li>
-                            <li class="dropdown-item">
-                                <a href="">جستجو</a>
-                            </li>
-                            <li class="dropdown-item">
-                                <a href="">سبد خرید</a>
-                            </li>
-                        </ul>
+<body class="overflow-auto">
+    <div class="containers">
+        <header>
+            <nav class="navbar fixed-top row-cols-auto p-3">
+                <div class="col mobile__nav mx-3">
+                    <div id="dropDown" class="dropdown__menu">
+                        <i class="fa fa-bars" style="font-size:1.8rem" aria-hidden="true"></i>
+                        <div class="dropdown__content">
+                            <ul>
+                                <li class="dropdown-item">
+                                    <a href="">خانه</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="">ورود / ثبت نام</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="">جستجو</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="">سبد خرید</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col">
-                <img src="/img/logo.svg" alt="">
-            </div>
-            <div class="col desktop__nav">
-                <div class="row row-cols-auto ">
-                    <div class="col">
-                        <span class="fa fa-search navbar__icons"></span>
-                        <a href="">جستجو</a>
-                    </div>
-                    <div class="col">
-                        <span class="fa fa-user-o navbar__icons"></span>
-                        <a href="">ورود / ثبت نام</a>
-                    </div>
-                    <div class="col">
-                        <span class="fa fa-shopping-cart navbar__icons"></span>
-                        <a href="">سبد خرید</a>
+                <div class="col">
+                    <img src="/img/logo.svg" alt="">
+                </div>
+                <div class="col desktop__nav">
+                    <div class="row row-cols-auto ">
+                        <div class="col">
+                            <span class="fa fa-search navbar__icons"></span>
+                            <a href="">جستجو</a>
+                        </div>
+                        <div class="col">
+                            <span class="fa fa-user-o navbar__icons"></span>
+                            <a href="">ورود / ثبت نام</a>
+                        </div>
+                        <div class="col">
+                            <span class="fa fa-shopping-cart navbar__icons"></span>
+                            <a href="">سبد خرید</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            </div>
-        </nav>
+    </div>
+    </nav>
     </header>
     <main>
         <section class="home_main">
@@ -67,10 +68,10 @@
                 <select class="select__city" name="city" id="">
                     <option value="">رشت</option>
                     <option value="">تهران</option>
-                    <option value="">گیلان</option>
+                    <option value="">شیراز</option>
                     <option value="">اصفهان</option>
                 </select>
-                <div class="btn btn-sm btn-primary m-4">
+                <div class="btn btn-sm btn-primary select__home_button">
                     <span class="btn__text bold">بزن بریم</span>
                     <i class="fa fa-long-arrow-left bold"></i>
                 </div>
@@ -482,6 +483,7 @@
                 </div>
             </div>
     </footer>
+    </div>
     <script src="/script/script.js"></script>
 </body>
 
