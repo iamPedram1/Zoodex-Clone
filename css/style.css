@@ -40,6 +40,43 @@ a {
 .desktop__nav {
   display: none;
 }
+
+.border-color {
+  border-right: 3px solid #e3e3e3;
+  border-left: 3px solid #e3e3e3;
+}
+
+.search__bar_parent {
+  position: relative;
+  border: 2px solid var(--purple);
+  width: 300px;
+  height: 50px;
+  border-radius: 8px;
+}
+
+.search__bar_icon {
+  position: absolute;
+  right: 5%;
+  top: 30%;
+}
+
+.search__bar,
+.search__bar::-webkit-input-placeholder {
+  font-size: 13px;
+}
+
+.search__bar {
+  border: 0;
+  position: absolute;
+  padding-right: 2.5rem;
+  font-weight: bold;
+  margin-right: 0.2rem;
+  top: 10%;
+  width: 95%;
+  height: 80%;
+  outline: 0;
+}
+
 .dropdown__menu {
   position: relative;
   margin-right: 1rem;

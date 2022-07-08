@@ -28,3 +28,27 @@ showExtraBtn.addEventListener("click", () => {
     }
   });
 });
+
+// Search
+const search = document.querySelector("#search");
+const searchBarParent = document.querySelector(".search__bar_parent");
+
+search.addEventListener("click", (e) => {
+  e.preventDefault();
+  const searchBar = document.querySelector(".search__bar_parent");
+  search.classList.add("d-none");
+  searchBar.classList.replace("d-none", "d-block");
+});
+
+let num = 0;
+window.addEventListener("click", function (e) {
+  if (document.getElementById("searchinput").contains(e.target)) {
+    // Clicked in box
+  } else {
+    num++;
+    if (num % 2 === 0) {
+      searchBarParent.classList.add("d-none");
+      search.classList.replace("d-none", "d-block");
+    }
+  }
+});

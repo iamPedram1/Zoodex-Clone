@@ -29,7 +29,7 @@
                                     <a href="">ورود / ثبت نام</a>
                                 </li>
                                 <li class="dropdown-item">
-                                    <a href="">جستجو</a>
+                                    <a href="#">جستجو</a>
                                 </li>
                                 <li class="dropdown-item">
                                     <a href="">سبد خرید</a>
@@ -43,17 +43,22 @@
                 </div>
                 <div class="col desktop__nav">
                     <div class="row row-cols-auto ">
-                        <div class="col">
-                            <span class="fa fa-search navbar__icons"></span>
-                            <a href="">جستجو</a>
+                        <div class="col my-auto">
+                            <!-- <span class="fa fa-search navbar__icons"></span> -->
+                            <a href="" id="search" class="bold">جستجو</a>
+                            <div class="search__bar_parent d-none">
+                                <input id="searchinput" placeholder="نام مجموعه یا محصول را جستجو کنید"
+                                    class="search__bar" type="text" />
+                                <span class="fa fa-search search__bar_icon navbar__icons"></span>
+                            </div>
                         </div>
-                        <div class="col">
+                        <div class="col my-auto border-color">
                             <span class="fa fa-user-o navbar__icons"></span>
-                            <a href="">ورود / ثبت نام</a>
+                            <a href="" class="bold">ورود / ثبت نام</a>
                         </div>
-                        <div class="col">
+                        <div class="col my-auto">
                             <span class="fa fa-shopping-cart navbar__icons"></span>
-                            <a href="">سبد خرید</a>
+                            <a href="" class="bold">سبد خرید</a>
                         </div>
                     </div>
                 </div>
