@@ -36,6 +36,7 @@ a {
 .navbar {
   background-color: var(--white);
   z-index: 999;
+  max-height: 80px;
 }
 .desktop__nav {
   display: none;
@@ -44,6 +45,7 @@ a {
 .border-color {
   border-right: 3px solid #e3e3e3;
   border-left: 3px solid #e3e3e3;
+  margin: 13px;
 }
 
 .search__bar_parent {

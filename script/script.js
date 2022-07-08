@@ -47,7 +47,7 @@ window.addEventListener("click", function (e) {
   } else {
     num++;
     if (num % 2 === 0) {
-      searchBarParent.classList.add("d-none");
+      searchBarParent.classList.replace("d-block", "d-none");
       search.classList.replace("d-none", "d-block");
     }
   }
