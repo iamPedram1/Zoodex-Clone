@@ -81,7 +81,6 @@ a {
 
 .dropdown__menu {
   position: relative;
-  margin-right: 1rem;
 }
 .dropdown__content {
   position: absolute;
@@ -119,6 +118,11 @@ ul > li.dropdown-item {
 }
 
 /* Main */
+.select-city {
+  width: 40vw;
+  max-width: 200px;
+  min-height: 45px;
+}
 
 .home_main {
   position: relative;
@@ -137,6 +141,13 @@ ul > li.dropdown-item {
   font-weight: bold;
   white-space: pre-wrap;
 }
+
+.logo_image {
+  width:120px;
+  height:50px;
+}
+
+
 .home_main__img {
   height: 500px;
   width: 100vw;
@@ -204,11 +215,20 @@ ul > li.dropdown-item {
 }
 .select__home_button {
   margin: 0 1rem;
+  min-width: 120px;
+  max-width: 120px;
+  min-height:45px;
+  max-height:45px;
 }
 
 @media screen and (min-width: 728px) {
   .login__text {
     top: 58%;
+  }
+
+  .logo_image {
+    width:160px;
+    height:48px;
   }
   .select__home_button {
     margin: 0 1rem;
@@ -243,7 +263,7 @@ ul > li.dropdown-item {
 
 /* Catagory */
 .catagory {
-  padding: 100px 0;
+  padding: 20px;
 }
 .catagory__text {
   text-align: center;
@@ -340,11 +360,18 @@ section.features {
   padding-bottom: 9rem !important;
 }
 .features__header {
-  padding: 5rem 0;
+  padding: 2.5rem 0;
 }
+
 @media screen and (max-height: 576px) {
   .features__card {
     margin: auto;
+  }
+}
+
+@media screen and (max-width:728px) {
+  section.features {
+    padding-bottom: 5rem !important;
   }
 }
 .features__subtext {

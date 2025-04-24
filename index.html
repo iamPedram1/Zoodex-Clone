@@ -16,8 +16,8 @@
 <body class="overflow-auto">
     <div class="containers">
         <header>
-            <nav class="navbar fixed-top row-cols-auto p-3">
-                <div class="col mobile__nav mx-3">
+            <nav class="navbar fixed-top row-cols-auto px-2 px-4">
+                <div class="col mobile__nav">
                     <div id="dropDown" class="dropdown__menu">
                         <i class="fa fa-bars" style="font-size:1.8rem" aria-hidden="true"></i>
                         <div class="dropdown__content">
@@ -39,7 +39,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <img src="/img/logo.svg" alt="">
+                    <img src="/img/logo.svg" class="logo_image">
                 </div>
                 <div class="col desktop__nav">
                     <div class="row row-cols-auto ">
@@ -72,11 +72,11 @@
             <img src="./img/zoodex-main-banner.93b6302.webp" class="home_main__img" alt="">
             <p class="order__text">انتخاب غذای مورد علاقتون با شما ثبت یک سفارش خوشایند با ما </h3>
             <div class="select__home_main d-flex align-items-center">
-                <select class="select__city" name="city" id="">
-                    <option value="">رشت</option>
-                    <option value="">تهران</option>
-                    <option value="">شیراز</option>
-                    <option value="">اصفهان</option>
+                <select class="form-select select-city" name="city" >
+                    <option value="rasht">رشت</option>
+                    <option value="tehran">تهران</option>
+                    <option value="shiraz">شیراز</option>
+                    <option value="isfahan">اصفهان</option>
                 </select>
                 <div class="btn btn-sm btn-primary select__home_button">
                     <span class="btn__text bold">بزن بریم</span>
@@ -452,10 +452,10 @@
             </div>
         </section>
     </main>
-    <footer>
+    <footer class="pt-3 pb-4">
         <div class="row ">
             <div class="col-lg-3 col-md-6 px-5">
-                <p class="bold pt-5">درباره زودکس </p>
+                <p class="bold pt-3">درباره زودکس </p>
                 <p class="about__us">قسمت فروشگاهی زودکس واسطی بین مشتریان و فروشگاه ها می باشد که به سفارش و ارسال خرید
                     های شما مشتریان عزیز سرعت می بخشد. در حال حاضر زودکس با رستوران ها، فست فود ها، کافه ها، میوه فروشی
                     ها، سوپر مارکت ها و... به صورت قراردادی کار میکند و این خدمات را با سرعت بیشتری درب منزل شما می آورد
